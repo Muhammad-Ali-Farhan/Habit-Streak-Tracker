@@ -1,0 +1,9 @@
+<div class="habit-list">
+    <h2>Your Habit List</h2>
+    <ul>
+      <li *ngFor="let habit of habits">
+        <app-habit-item [habit]="habit"></app-habit-item>
+      </li>
+    </ul>
+</div>
+  

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "outDir": "./dist/out-tsc",
+      "target": "es2020",
+      "module": "es2020",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmitOnError": true,
+      "experimentalDecorators": true,
+      "useDefineForClassFields": false
+    },
+    "include": [
+      "src/**/*.ts"
+    ]
+  }
+  
